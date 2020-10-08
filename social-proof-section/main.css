@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+  font-family: 'Spartan', sans-serif;
+  background: url("./images/bg-pattern-top-desktop.svg") top left, url("./images/bg-pattern-bottom-desktop.svg") bottom right;
+  background-repeat: no-repeat;
+
+}
+
+section h1{
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: hsl(300, 43%, 22%);
+}
+
+section p{
+    font-size: 14px;
+    line-height: 22px;
+    color: hsl(303, 10%, 53%);
+}
+
+.top-level {
+    margin: 80px auto;
+    max-width: 1440px;
+    width: 80%;
+}
+
+.top-half {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.promo-content {
+    flex: 0 0 50%;
+    display: flex
+}
+
+.promo-content-inner {
+    flex-basis: 85%;
+}
+
+.promo-heading {
+    color: hsl(300, 43%, 22%);
+}
+
+.rating {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.rated-text {
+    
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    border-radius: 4px;
+    /* flex : 0 0 25%; */
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    margin-bottom: 20px;
+    /* text-align: center;
+    vertical-align: middle; */
+}
+
+.rated-1 {
+    align-self: flex-start;
+}
+.rated-2 {
+    align-self: center;
+}
+.rated-3 {
+    align-self: flex-end;
+    margin-bottom: 0px;
+}
+
+.stars {
+    margin-right: 20px;
+}
+/* .star-icon {
+    content: url("./images/icon-star.svg");
+} */
+
+.buyer-info .customer-name{
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.buyer-info .verified-buyer{
+    color: hsl(333, 80%, 67%);
+    letter-spacing: 1px;
+    line-height: 12px;
+}
+
+.review-content{
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+}
+.bottom-half {
+    margin-top: 40px;
+}
+.buyer-header {
+    display: flex;
+}
+.buyer-img {
+    height: 50px;
+    border-radius: 999px;
+}
+.customer-reviews {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.customer-review {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    flex-basis: 25%;
+    max-width: 30%;
+    padding: 20px;
+}
+.customer-name {
+    color: white;
+}
+.verified-buyer {
+    color: hsl(333, 80%, 67%)
+    ;
+}
+.review-content {
+    color: white;
+}
